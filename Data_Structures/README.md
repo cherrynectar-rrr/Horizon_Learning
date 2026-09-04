@@ -38,7 +38,6 @@ Data Structures and Algorithm overlap, but they have different primary questions
 - core operations and their cost;
 - implementation mechanics;
 - comparison between representations;
-- course-aligned terminology and understanding when official materials are available;
 - practical ability to build, inspect and debug structures.
 
 ### Algorithm owns
@@ -67,11 +66,28 @@ Prefer **cross-reference and transfer** over duplicate notes, duplicate code and
 
 `Horizon_Academic` owns factual university-course evidence such as the official syllabus, textbook, assessment scheme, lecture coverage, labs, assignments and grades.
 
-This thread owns **subject-matter learning**.
+This thread owns **subject-matter learning and capability building**.
 
-When the user provides official course materials, textbook chapters, slides or teacher requirements, those materials become the primary basis for course-specific teaching and terminology. General knowledge or external material should supplement them rather than silently replace them.
+University materials are used when course alignment matters—for example terminology, exams, assignments or required language—but they are **not the default teaching authority** for this thread.
 
-## 5. Learning Mode
+The learning route should instead be built from strong external sources selected for conceptual quality, implementation value and transfer to later engineering / algorithms.
+
+## 5. Learning Source Policy
+
+The learner should not be sent to consume several full courses in parallel. The Specialist Thread curates, compresses and combines the strongest parts of selected sources into one Horizon learning path.
+
+Initial source stack for the foundation blocks:
+
+- **OpenDSA** — primary structural map for ADTs, linear structures, representations and operation-cost comparisons;
+- **Stanford CS106B** — C++-oriented implementation intuition, pointers, linked nodes and linked-list mechanics;
+- **University of Washington CSE 373** — design decisions, invariants, testing and project-level use of data structures;
+- **Princeton Algorithms** — supporting perspective on data abstraction and alternative implementations.
+
+Use external sources selectively and just in time. Do not turn source consumption into the learning objective.
+
+Sources may change when a clearly better teaching or reference source is found.
+
+## 6. Learning Mode
 
 The first real trials should use:
 
@@ -101,30 +117,28 @@ Target metric:
 
 > **Time-to-Independent-Capability**
 
-## 6. Provisional Foundation Map
+## 7. Provisional Foundation Map
 
-Until the actual university syllabus / textbook is supplied, use this only as a **provisional generic map**, not as a claim about the school's official order:
+This is a capability-oriented map, not a claim about the university's official order:
 
 1. Data structure / ADT / operation-cost intuition
 2. Linear lists and representation choices
 3. Linked structures
 4. Stacks and queues
 5. Trees and tree traversal
-6. Priority structures / heaps where course-relevant
+6. Priority structures / heaps where useful
 7. Graph representation and traversal foundations
-8. Searching / sorting structures and related course topics where required
+8. Searching / sorting structures and related topics where they create new capability
 
-The route should be adjusted when real course evidence arrives. Do not expand merely for completeness.
+Do not expand merely for completeness.
 
-## 7. Implementation Language
+## 8. Implementation Language
 
-The university course's required implementation language is **not yet verified here**.
+Use the learner's existing **C++ capability** as the default implementation language for this thread unless there is a concrete reason to use another language.
 
-- If official course material specifies C / C++ / another language, align course-facing work to that requirement.
-- Until then, the learner's existing C++ capability may be used for provisional implementation exercises when useful.
-- Do not present provisional C++ work as proof of a specific school-language requirement.
+If a university assignment later requires C / C++ / another language, align the course-facing implementation to that requirement without rebuilding already-mastered concepts from zero.
 
-## 8. Evidence Standard
+## 9. Evidence Standard
 
 A useful structure milestone should usually demonstrate several of:
 
@@ -139,7 +153,7 @@ A useful structure milestone should usually demonstrate several of:
 
 Real capability is more important than a large note archive.
 
-## 9. Initial Gate
+## 10. Initial Gate
 
 **Linear Structure Foundation v1**
 
@@ -148,13 +162,11 @@ The learner should be able to:
 - explain the idea of a linear structure / linear list at an intuitive level;
 - distinguish sequential and linked representation conceptually;
 - explain the main trade-offs between them;
-- implement a small set of core operations in the course-aligned language once that language is known;
+- implement a small set of core operations in C++;
 - reason about the operation costs;
 - complete one unfamiliar transfer / debugging task without tutorial-style guidance.
 
-If official course materials indicate a different starting point, follow the real course evidence instead.
-
-## 10. Operating Rule
+## 11. Operating Rule
 
 This thread exists to **save future time**, not consume more of it.
 
