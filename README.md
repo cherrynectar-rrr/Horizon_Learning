@@ -9,7 +9,8 @@ It stores structured learning material, exercises, assessments, small learning p
 - Python
 - C++
 - Linux
-- Algorithm / Data Structures
+- Algorithm
+- Data Structures
 - Embedded
 - later AI / technical communication work only when real learning evidence justifies it
 
@@ -31,9 +32,14 @@ Current Specialist state lives under:
 - `CPP/STATUS.md`
 - `Linux/STATUS.md`
 - `Algorithm/STATUS.md`
+- `Data_Structures/STATUS.md`
 - `Embedded/STATUS.md`
 
 Legacy copies in `Project_Horizon` are historical migration sources and must not be edited as live second state.
+
+## Shared-Mastery Rule
+
+When Algorithm and Data Structures overlap, verified mastery should be reused rather than recreated. Data Structures owns structure representation / implementation / course-facing understanding; Algorithm owns problem-solving use and the existing Algorithm roadmap. Cross-reference strong evidence instead of duplicating study hours, code or notes.
 
 ## Startup Rule
 
