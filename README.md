@@ -2,24 +2,39 @@
 
 Capability-building repository for Project Horizon.
 
-It stores structured learning material, exercises, assessments, small learning projects, and verifiable evidence for durable technical foundations.
+It stores structured learning material, exercises, assessments, small learning projects and verifiable evidence for durable technical foundations.
 
-## Initial capability areas
+## Current Capability Areas
 
 - Python
 - C++
 - Linux
 - Algorithm / Data Structures
 - Embedded
-- AI foundations
-- English / technical communication when learning artifacts justify it
+- later AI / technical communication work only when real learning evidence justifies it
 
 ## Boundary
 
-This repository answers: **How am I becoming technically stronger?**
+This repository answers:
+
+> **How am I becoming technically stronger?**
 
 Long-lived standalone products and research projects belong in their own project repositories. Horizon-wide priority and governance remain in `cherrynectar-rrr/Project_Horizon`.
 
-## Migration state
+## Canonical State
 
-Migration in progress. Existing learning evidence remains preserved in `Project_Horizon` until copied and verified here.
+After the 2026-09-04 cutover, this repository is the canonical home for detailed execution state and learning evidence for its active capability areas.
+
+Current Specialist state lives under:
+
+- `Python/STATUS.md`
+- `CPP/STATUS.md`
+- `Linux/STATUS.md`
+- `Algorithm/STATUS.md`
+- `Embedded/STATUS.md`
+
+Legacy copies in `Project_Horizon` are historical migration sources and must not be edited as live second state.
+
+## Startup Rule
+
+A Learning Specialist should normally read only its local `STATUS.md` first. Read Horizon `MASTER_STATUS.md` only when priority, scope, another thread or a Core dependency matters.
